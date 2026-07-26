@@ -1,0 +1,53 @@
+# Compiled binaries
+app
+*.exe
+
+# Go build artifacts
+*.test
+*.out
+
+# Dependency directories (if not using go modules)
+vendor/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Thumbs.db:metadata
+Desktop.ini
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build output
+dist/
+build/
+
+# Documentation generated files
+docs/_build/
+
+# Database files (if any)
+*.db
+*.sqlite
+*.sqlite3
